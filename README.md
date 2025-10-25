@@ -1,0 +1,23 @@
+# DChu's Quiz
+By Daniel Chu (2024)  
+
+
+This was a project that I did during my junior year of high school before I took the AP Computer Science A Exam.   
+It encompasses a wide range of fundamental programming principles with relation to the Java language, primarily:
+- Object Oriented Programming (OOP)
+- Basic Inheritance
+- Polymorphism
+
+## Running the program
+The project can be run by running the ```Driver.class``` file.
+
+## Remarks
+- The primary uses of Object Oriented Programming and the inheritance that comes with it are found in the different ```Problem``` classes.  
+
+- Note the ```Problem``` class is never fully instantiated directly in the game itself; it is essentially an ```abstract``` class that I wasn't aware about back then. This came naturally to me.  
+
+- In the same way, the ```MemoryProb``` class is also ```abstract``` because it is used the same way as the ```Problem``` class.
+
+- The program also incorporates some ANSI codes to the terminal, such as to flush the terminal (clear the "screen"). It also has a sleeping time component, which is essential for child classes of ```MemoryProb``` to be displayed to the user. 
+
+Any feedback is appreciated!
